@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background: #000;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.stopfade {
+   opacity: .5;
+}
+
+h1 {
+  text-align: left;
+  font-family: 'LeagueGothicRegular', "Impact", Charcoal, Arial Black, Gadget, Sans serif;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #22ffff;
+  font-size: 300%;
+  font-weight: normal;
+  opacity: 0.5;
+}
+
+h1:hover {
+  color: #ff6;
+}
+
+span {
+  word-spacing: 0px;
+  letter-spacing: 0.571px;
+  font-size: 157.2px;
+}
+
+.title {
+  max-width: 500px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
