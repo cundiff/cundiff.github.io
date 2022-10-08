@@ -1,4 +1,4 @@
-import Chaffle from './chaffle.js'
+import { Chaffle } from "./chaffle.js";
 
 var elements = document.querySelectorAll("[data-chaffle]");
 Array.prototype.forEach.call(elements, function (el) {
